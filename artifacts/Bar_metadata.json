@@ -1,0 +1,116 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "LogBytes",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "foo",
+				"outputs": [
+					{
+						"internalType": "contract Foo",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					}
+				],
+				"name": "tryCatchExternalCall",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_i",
+						"type": "uint256"
+					}
+				],
+				"name": "tryCatchExternalCall",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"TryCatch.sol": "Bar"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"TryCatch.sol": {
+			"keccak256": "0x0a383b8453501e7ed19ca5e4de8619ddd8574ee63ab51fb86ac463ee7a7e6349",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a121410b9ef22b1fa3a453275ec6aa4550b4b4545e4ecdea47936d6a9f378e43",
+				"dweb:/ipfs/QmR344y6aXkzdcZrWGKvPEmhYV3vTBcKJbcBoH5RDThJUg"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,181 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "cars",
+				"outputs": [
+					{
+						"internalType": "contract Car",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_model",
+						"type": "string"
+					}
+				],
+				"name": "create",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_model",
+						"type": "string"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "_salt",
+						"type": "bytes32"
+					}
+				],
+				"name": "create2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_model",
+						"type": "string"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "_salt",
+						"type": "bytes32"
+					}
+				],
+				"name": "create2AndSendEther",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_model",
+						"type": "string"
+					}
+				],
+				"name": "createAndSendEther",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "getCar",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "mdoel",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "carAddr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "balance",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ContractThatCreatesOtherContracts.sol": "CarFactory"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ContractThatCreatesOtherContracts.sol": {
+			"keccak256": "0xa1e390b50f76271dcaace200d9f725e4d54fa46c2e620978cd66a508af7ad48a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://579f82253a687de15cdfc475cb8ef66bce74dbffd866d413e53066dd32e2c15b",
+				"dweb:/ipfs/QmcN5g5wrvwtD6thNtxqvwb7gi1DRn7SgtB8Ajji2RCbf1"
+			]
+		}
+	},
+	"version": 1
+}

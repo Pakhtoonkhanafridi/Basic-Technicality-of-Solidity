@@ -1,0 +1,90 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myNum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myState",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_text",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_no",
+						"type": "uint256"
+					}
+				],
+				"name": "update",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"StateVariable.sol": "StateVariables"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"StateVariable.sol": {
+			"keccak256": "0x3016beb968916c5e45cab1fd1651f337743938ce01bc2549db3aaa709276752c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e2f3bec6fa0f2fffd4125da1c7b7d6fbfb3173923c4e8f68ee64de07cf08b6fb",
+				"dweb:/ipfs/QmSjKy47TW5Br26cGpDa3zTWtnnrdRFoSqFsCJmQEw2vnt"
+			]
+		}
+	},
+	"version": 1
+}

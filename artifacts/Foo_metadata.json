@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "myFunc",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"TryCatch.sol": "Foo"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"TryCatch.sol": {
+			"keccak256": "0x0a383b8453501e7ed19ca5e4de8619ddd8574ee63ab51fb86ac463ee7a7e6349",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a121410b9ef22b1fa3a453275ec6aa4550b4b4545e4ecdea47936d6a9f378e43",
+				"dweb:/ipfs/QmR344y6aXkzdcZrWGKvPEmhYV3vTBcKJbcBoH5RDThJUg"
+			]
+		}
+	},
+	"version": 1
+}

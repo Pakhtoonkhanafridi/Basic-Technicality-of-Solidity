@@ -1,0 +1,109 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_b",
+						"type": "uint256"
+					}
+				],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getInfo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "hem",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_hey",
+						"type": "uint256"
+					}
+				],
+				"name": "updateData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"learnFunction.sol": "LearnFunction"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"learnFunction.sol": {
+			"keccak256": "0x43ca21c29b23feb89d8faf4071cfefc06f3cb3458840a20a57fdbb3a16ee6f5f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a5819d20b77889892e8a091a859294244a9ff0bcee0fde33a4618ca6d614aca6",
+				"dweb:/ipfs/QmZTqbtL6JoEQn5zsBswtkG2yYRzDiPtryRnbAxyyk9GBK"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,90 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_hey",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_no",
+						"type": "uint256"
+					}
+				],
+				"name": "addInfo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "hey",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "hum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MFirstContract.sol": "myFirstContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MFirstContract.sol": {
+			"keccak256": "0x178a3ff11db1a292fd1b7a7ca7098fa0a00d6a69620b0901f92b039ba64fc840",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a67f076b25e8f86e639cbe78408ef61198db9ff04618fff04b06ca6efa0e2629",
+				"dweb:/ipfs/QmWiTv1wnpKDYZFx1fC7YYPpousL8TPoZ1FwrhHrBx3Vak"
+			]
+		}
+	},
+	"version": 1
+}

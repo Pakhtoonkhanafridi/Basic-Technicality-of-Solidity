@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_text",
+						"type": "string"
+					}
+				],
+				"name": "create",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "todos",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "text",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "completed",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Struct.sol": "Todo"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Struct.sol": {
+			"keccak256": "0x111e6b28562ba406982c8722af18b0a8d2be3c9063300d3b0ea4426435946129",
+			"urls": [
+				"bzz-raw://d9ae752a90c835434a2c5025025b6021bff67a0d9a32777968bd83a4c6daa785",
+				"dweb:/ipfs/QmePeZhvvzuSME4XRwTPk5UJ2szQmPmw9FrdcGSfpom3jD"
+			]
+		}
+	},
+	"version": 1
+}

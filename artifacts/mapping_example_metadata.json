@@ -1,0 +1,134 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "array",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_subject",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_marks",
+						"type": "uint8"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "std1",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "subject",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "marks",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "structure",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"mapping_example.sol": "mapping_example"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"mapping_example.sol": {
+			"keccak256": "0x853dd13ef766efae2a5b6ae3baa8a521ffdea710c7690b6ae98ed1e507a9263d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3555df12fca59681c10a9f2fef8165dd866d012311b8f96e918775e8d1d59afa",
+				"dweb:/ipfs/QmTVyEivx6FTP113eGtbmPvtEk7AS6sCAbeoRoHf9cX2gG"
+			]
+		}
+	},
+	"version": 1
+}

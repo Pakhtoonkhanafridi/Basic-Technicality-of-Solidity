@@ -1,0 +1,115 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					}
+				],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "myMap",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					}
+				],
+				"name": "remove",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_i",
+						"type": "uint256"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Mapping.sol": "Mapping"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Mapping.sol": {
+			"keccak256": "0xfe0f7ea1bb9cdd40c00ffd2066c8f04507991ff187f85d40e869be565c07d363",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3ea6856f805be3b1a2b8eab5bf506fccf2fd7661a766f7c8126bbe9b528b2efa",
+				"dweb:/ipfs/QmWKtFYtuSzAGr62czk8XPLEjkxNeDPZTbqNfmJWLkvMw3"
+			]
+		}
+	},
+	"version": 1
+}

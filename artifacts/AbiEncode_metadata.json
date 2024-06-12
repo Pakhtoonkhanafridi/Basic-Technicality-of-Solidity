@@ -1,0 +1,136 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "encodeCall",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "encodeWithSelector",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "encodeWithSignature",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_contract",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "test",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ABI.sol": "AbiEncode"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ABI.sol": {
+			"keccak256": "0x13fd6f2f94045b426839bc09c82093d80d4b3c464162059bf0c653ae7482e743",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9ee913357d0944ef1d2f75529c71014136f9375a1b1df6197d30e80f8c9eb240",
+				"dweb:/ipfs/QmciBZJbeyxyjA56q3GuPaXxTi4wati33uR4Edq7wUkHy9"
+			]
+		}
+	},
+	"version": 1
+}

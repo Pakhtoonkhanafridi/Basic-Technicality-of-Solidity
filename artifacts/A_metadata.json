@@ -1,0 +1,103 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "num",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sender",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_contract",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "setVars",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"DelegateCall.sol": "A"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"DelegateCall.sol": {
+			"keccak256": "0xe726d07e2acf063d0393676ce9f193ac5096aef2942db08d1d67cad4f6c1cab9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e470122df2ff96e1b05068e3c2a67fb04d4b422da03f7a6b5533bdf5a1328299",
+				"dweb:/ipfs/QmQFtJUDfy8WbKPmGUBTLdSEE1PUn7WP4SRen2K2W8pfxE"
+			]
+		}
+	},
+	"version": 1
+}

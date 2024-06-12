@@ -1,0 +1,111 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "Enum",
+				"outputs": [
+					{
+						"internalType": "enum Type.my_enum",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "b",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "boolenAge",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "int_var",
+				"outputs": [
+					{
+						"internalType": "int32",
+						"name": "",
+						"type": "int32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "str",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"types.sol": "Type"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"types.sol": {
+			"keccak256": "0xff457683ec6d56e1686d6e5c866c08c0e0f0f4e0602957014d2995fa143f0ad2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://27719d1c23d1302c7de1e4f205d3e5ca0d4ebe3e410301a1cbebd5a51272db84",
+				"dweb:/ipfs/QmPNHhMBYS8YNKXQTrCkiXQYQBMHdakHaxkFKokfWD6a9J"
+			]
+		}
+	},
+	"version": 1
+}

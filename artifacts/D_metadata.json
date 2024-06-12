@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "bar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "foo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Super.sol": "D"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Super.sol": {
+			"keccak256": "0x58c09659f3acf40bca2ff08ae96f3372284539e071954ac4645d772be5d4d499",
+			"urls": [
+				"bzz-raw://550a6a4805eff32cbbb4278b15bdd8f15259ee8c2afada75eefff5af7810fb02",
+				"dweb:/ipfs/QmSbTh2PAT7dsfc1VDP46oD3vAQvxwoxAtTMSHdy52xjpE"
+			]
+		}
+	},
+	"version": 1
+}

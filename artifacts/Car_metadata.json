@@ -1,0 +1,101 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_model",
+						"type": "string"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "carAddr",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "model",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ContractThatCreatesOtherContracts.sol": "Car"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ContractThatCreatesOtherContracts.sol": {
+			"keccak256": "0xa1e390b50f76271dcaace200d9f725e4d54fa46c2e620978cd66a508af7ad48a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://579f82253a687de15cdfc475cb8ef66bce74dbffd866d413e53066dd32e2c15b",
+				"dweb:/ipfs/QmcN5g5wrvwtD6thNtxqvwb7gi1DRn7SgtB8Ajji2RCbf1"
+			]
+		}
+	},
+	"version": 1
+}

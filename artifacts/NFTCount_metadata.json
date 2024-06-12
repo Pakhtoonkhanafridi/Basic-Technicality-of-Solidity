@@ -1,0 +1,86 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "addNFT",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkTotalNFT",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deleteNFT",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "numberOfNFT",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"NFTCount.sol": "NFTCount"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"NFTCount.sol": {
+			"keccak256": "0x7bdb856ae663b04471ef21df0802df21f4ede3b24b1d52153a2e7788eeaeb955",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://057cde09f040dc81fbc153b7e4128f232bf45006579eb4afa439bbef9a2ac327",
+				"dweb:/ipfs/QmQUYhJz5sQS3jwSt6hgEmfY2yhSpnTVQWGTzhfhq8SXBV"
+			]
+		}
+	},
+	"version": 1
+}

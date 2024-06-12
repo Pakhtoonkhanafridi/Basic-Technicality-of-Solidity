@@ -1,0 +1,99 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_text",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_anotherText",
+						"type": "string"
+					}
+				],
+				"name": "collision",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_text",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					}
+				],
+				"name": "hash",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"kecak256.sol": "HasFunction"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"kecak256.sol": {
+			"keccak256": "0x42b6eb915008240b7c4790eb4e307779185f575d15bf1cf06cc3290196a420d9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://11e0db25d1b1ae11271e4402d038016e880c401f129e83593edb5f9dce847490",
+				"dweb:/ipfs/QmRxTLAYe69GFxTt9KTMxMCLWrtL5iNheZFMpaLrysB1wD"
+			]
+		}
+	},
+	"version": 1
+}

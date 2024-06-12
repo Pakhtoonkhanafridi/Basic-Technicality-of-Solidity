@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [],
+				"name": "AnotherLog",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "test",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"events": {
+				"Log(address,string)": {
+					"notice": "up tp 3 parameters can be indexed."
+				}
+			},
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Events.sol": "Event"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Events.sol": {
+			"keccak256": "0xe634d9981d513b11e1783858c48d2afb5c71a70d97b73cafb59c61dd273c143a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7e95545164afe84f33cffd33432307cd957f4ab7a9088613d7733f28b3b86f6c",
+				"dweb:/ipfs/QmWprY6KkqQvUZ1i3Qzw2eFaHin35baGh3emAMscsZEJ5b"
+			]
+		}
+	},
+	"version": 1
+}
